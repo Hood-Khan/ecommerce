@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    /* border: 2px solid red; */
+    width: 100%;
+}
+
+/* header Main div */
+.headerMain{
+    /* border: 2px solid green; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* header child div */
+.headerChild{
+    /* border: 2px solid blue; */
+    width: 90%;
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+/* logo style */
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+/* links style */
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbarlinks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    gap: 60px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/* icons style */
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    cursor: pointer;
+}
+
+
+/* montserrat font */
+.montserrat{
+  font-family: "Montserrat", serif;
+  font-weight: 700px;
+  font-style: normal;
+  font-size: 34px;
+}
+
+/* poppin font */
+.poppins{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+}
+
+/* main section style */
+.maindiv{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    position: relative;
+}
+.image{
+    width: 100%;
+}
+/* content style */
+.content{
+    background-color: #FFF3E3;
+    width: 643px;
+    height: 443px;
+    position: absolute;
+    top: 150px;
+    left: 739px;
+    padding: 50px;
+    /* border: 2px solid #FFB800; */
+    border-radius: 10px;
+}
+.contentPadding{
+    margin: 15px 0px;
+    font-family: "Poppins", serif;
+}
+/* content heading style */
+.h1{
+    font-family: "Poppins", serif;
+    font-weight: 700px;
+    font-style: normal;
+    font-size: 52px;
+    color: #B88E2F;
+    line-height: 65px;
+}
+/* button style */
+.btn{
+    padding: 25px 72px;
+    background-color: #B88E2F;
+    color: white;
+    border: none;
+    margin-top: 25px;
+}
